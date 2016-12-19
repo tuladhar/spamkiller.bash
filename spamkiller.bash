@@ -21,7 +21,7 @@ DOC
 
 # search for known spam script signatures (regex) only in those scripts matching the filepattern (regex)
 # add more spam scripts signature here as regex.
-SIGNATURES='\$t60=\"|base64_decode\";return'
+SIGNATURES='\$t60=\"|base64_decode\";return|\"64_decode\";return'
 # add more spam scripts file pattern here as regex
 FILEPATTERN=".*(php|php\.suspected)$"
 
